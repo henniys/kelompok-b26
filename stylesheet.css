@@ -1,0 +1,232 @@
+/*ALL*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "verdana";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+/*HEADER*/
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #F39C12;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 10px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+/*MAIN*/
+
+.top-wrapper {
+    padding: 100px 0 0 0;
+    background-color: white;
+    background-size: cover;
+    color: #F39C12;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 1;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-family: verdana;
+}
+
+
+/*BODY1 button*/
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.more-info {
+    background-color: #F39C12;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+
+/*BODY2*/
+
+
+/*BODY3*/
+
+.body-3 {
+    border-bottom: 1px solid #F39C12;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #F39C12;
+}
+
+.body3-heading h3 {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 0px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: black;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 7px #bebebe;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+
+/*body-1*/
+
+
+/*CSS untuk Body-1*/
+
+* {
+    box-sizing: border-box;
+}
+
+.body-1 {
+    background-color: #fef5e6;
+    color: black;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.body1-heading {
+    padding-top: 20px;
+}
+
+.body1-container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.body1-container h2 {
+    font-family: Merriweather;
+}
+
+.body1-container h3 {
+    font-family: 'Open Sans';
+}
+
+.cat-contents {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cat-content {
+    float: left;
+    padding: 10px 17px;
+    width: 33%;
+}
+
+.cat-img {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.cat-img img:hover {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 8px 8px 4px rgba(196, 188, 177, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.cat-img img {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 32px;
+    transition: all 0.2s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* CSS Footer */
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.809);
+    padding-bottom: 20px;
+}
+
+footer img {
+    width: 180px;
+    padding-top: 30px;
+    position: relative;
+}
+
+footer p {
+    color: white;
+    font-size: small;
+    /* text-align: right; */
+}
