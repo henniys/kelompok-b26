@@ -1,232 +1,287 @@
 /*ALL*/
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: "verdana";
+  margin: 0;
+  font-family: "verdana";
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .clear {
-    clear: left;
+  clear: left;
 }
 
 .container {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
-
 
 /*HEADER*/
 
 header {
-    height: 65px;
-    width: 100%;
-    background-color: #F39C12;
-    position: fixed;
-    top: 0;
-    z-index: 10;
+  height: 65px;
+  width: 100%;
+  background-color: #f39c12;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .logo {
-    width: 124px;
-    margin-top: 10px;
+  width: 124px;
+  margin-top: 10px;
 }
 
 .header-left {
-    float: left;
+  float: left;
 }
 
 .header-right {
-    float: right;
-    margin-right: -25px;
+  float: right;
+  margin-right: -25px;
 }
 
 .header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
-    float: left;
-    transition: all 0.5s;
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
 }
 
 .header-right a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
-
 
 /*MAIN*/
 
 .top-wrapper {
-    padding: 100px 0 0 0;
-    background-color: white;
-    background-size: cover;
-    color: #F39C12;
-    text-align: center;
+  padding: 100px 0 0 0;
+  background-color: white;
+  background-size: cover;
+  color: #f39c12;
+  text-align: center;
 }
 
 .top-wrapper h1 {
-    opacity: 1;
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-    font-family: verdana;
+  opacity: 1;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-family: verdana;
 }
-
 
 /*BODY1 button*/
 
 .btn-wrapper {
-    text-align: center;
-    margin: 20px 0;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .more-info {
-    background-color: #F39C12;
+  background-color: #f39c12;
 }
 
 .btn:hover {
-    opacity: 1;
+  opacity: 1;
 }
-
 
 /*BODY2*/
 
+.body2 {
+  padding-bottom: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+  text-align: center;
+}
+
+.body2-container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.body2-heading {
+  padding-top: 20px;
+}
+
+.kolom {
+  float: left;
+  width: 50%;
+}
+
+.body2-img {
+  margin-top: 15px;
+}
+
+.text-content-body2 {
+  width: 100%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.btn-wrapper-body2 {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.more-info {
+  background-color: #f39c12;
+}
+
+.btn:hover {
+  opacity: 1;
+}
 
 /*BODY3*/
 
 .body-3 {
-    border-bottom: 1px solid #F39C12;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    text-align: center;
-    background-color: #F39C12;
+  border-bottom: 1px solid #f39c12;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+  background-color: #f39c12;
 }
 
 .body3-heading h3 {
-    font-weight: bold;
-    font-size: 30px;
-    color: white;
-    margin-top: 0px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top: 0px;
 }
 
 .btn {
-    padding: 12px 24px;
-    color: black;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 20px;
-    text-align: center;
-    margin-top: 0px;
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 0px;
 }
 
 .message {
-    padding: 15px 40px;
-    background-color: #ffffff;
-    cursor: pointer;
-    box-shadow: 0 7px #bebebe;
+  padding: 15px 40px;
+  background-color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 7px #bebebe;
 }
 
 .message:active {
-    position: relative;
-    top: 7px;
-    box-shadow: none;
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
-
 /*body-1*/
-
 
 /*CSS untuk Body-1*/
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .body-1 {
-    background-color: #fef5e6;
-    color: black;
-    text-align: center;
-    padding-bottom: 40px;
+  background-color: #fef5e6;
+  color: black;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 .body1-heading {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .body1-container {
-    margin: 0 auto;
-    max-width: 1170px;
+  margin: 0 auto;
+  max-width: 1170px;
 }
 
 .body1-container h2 {
-    font-family: Merriweather;
+  font-family: Merriweather;
 }
 
 .body1-container h3 {
-    font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 .cat-contents {
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .cat-content {
-    float: left;
-    padding: 10px 17px;
-    width: 33%;
+  float: left;
+  padding: 10px 17px;
+  width: 33%;
 }
 
 .cat-img {
-    padding: 0 15px;
-    box-sizing: border-box;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
 .cat-img img:hover {
-    transition: all 0.5s ease-in-out;
-    box-shadow: 8px 8px 4px rgba(196, 188, 177, 0.2);
-    transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 8px 8px 4px rgba(196, 188, 177, 0.2);
+  transition: all 0.2s ease-in-out;
 }
 
 .cat-img img {
-    position: relative;
-    height: 250px;
-    width: 250px;
-    object-fit: cover;
-    border-radius: 32px;
-    transition: all 0.2s ease-in-out;
+  position: relative;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 32px;
+  transition: all 0.2s ease-in-out;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* CSS Footer */
+
 footer {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.809);
-    padding-bottom: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.809);
+  padding-bottom: 20px;
 }
 
 footer img {
-    width: 180px;
-    padding-top: 30px;
-    position: relative;
+  width: 180px;
+  padding-top: 30px;
+  position: relative;
 }
 
 footer p {
-    color: white;
-    font-size: small;
-    /* text-align: right; */
+  color: white;
+  font-size: small;
+  /* text-align: right; */
 }
